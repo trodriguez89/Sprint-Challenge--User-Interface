@@ -72,12 +72,22 @@ p {
     align-items: center;
     width: 800px;
     margin: 0 auto;
-    border: 2px solid red;
+    padding-top: 25px;
 }
 
 .top-nav-bar a {
+    
     text-decoration: none;
-    margin-top: 25px;
+    
+}
+
+.top-nav-bar .links {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+    height: 45px;
+    
 }
 
 .road-pic-container {
@@ -214,6 +224,7 @@ footer nav a {
 .building-pic {
     display: flex;
     justify-content: center;
+    padding-top: 35px;
     
 }
 
@@ -234,8 +245,11 @@ footer nav a {
     width: 47%;
     margin-top: 10px;
     padding-bottom: 50px;
-    border-bottom: 1px dashed black;
-    
+    border-bottom: 1px dashed black;  
+}
+
+.top-row .about-text-containers-top img {
+    padding-bottom: 10px;
 }
 
 .top-row-learn-more {
@@ -262,6 +276,11 @@ footer nav a {
     border-bottom: 1px dashed black;
     padding-bottom: 50px;
 }
+
+.bottom-row .about-text-containers-bottom img {
+    padding-bottom: 10px;
+}
+
 
 .bottom-row-learn-more {
     display: flex;
